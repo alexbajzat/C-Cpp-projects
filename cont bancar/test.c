@@ -82,7 +82,7 @@ void testControllerInit(){
 
 void testValidateDynVector(){
     DynVector dynVector;
-    dynVector.cap=20;
+    dynVector.cap=20;https://www.facebook.com/MKXUnofficial/videos/975803022508142/
     dynVector.len=0;
     assert(validateDynVector(dynVector)==1);
 
