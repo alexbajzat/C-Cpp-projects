@@ -9,5 +9,7 @@ typedef struct{
 }DynVector;
 
 DynVector initVector();
+int validateDynVector(DynVector dynVector);
+void reallocVector(DynVector *dynVector);
 
 #endif // VECTOR_H_INCLUDED
