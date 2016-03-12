@@ -31,9 +31,37 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="UI.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="UI.h" />
+		<Unit filename="controller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="controller.h" />
+		<Unit filename="domain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="domain.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="repository.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="repository.h" />
+		<Unit filename="test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test.h" />
+		<Unit filename="validator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="validator.h" />
+		<Unit filename="vector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vector.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

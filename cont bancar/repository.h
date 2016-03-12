@@ -7,5 +7,5 @@ typedef struct{
 
 
 Repository initRepository();
-
+void addElementToRepo(Repository* repository, Element element);
 #endif // REPOSITORY_H_INCLUDED

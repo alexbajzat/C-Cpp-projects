@@ -7,6 +7,6 @@ typedef struct {
     char description[20];
 }Element;
 
-
+Element createElement(unsigned id, float sum, unsigned day ,unsigned io, char description[]);
 
 #endif // DOMAIN_H_INCLUDED

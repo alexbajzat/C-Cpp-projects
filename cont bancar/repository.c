@@ -7,3 +7,8 @@ Repository initRepository(){
     return repository;
 }
 
+void addElementToRepo(Repository* repository, Element element){
+    reallocVector(&repository->elementList);
+    repository->elementList.elementVector[repository->elementList.len]=element;
+    repository->elementList.len++;
+}
