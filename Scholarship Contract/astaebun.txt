@@ -1,0 +1,4 @@
+1,mate,barbatei,2,20,
+2,romana,nadis,1,5,
+3,engleza,negrea,3,15,
+4,maghiara,boss,2,100,
